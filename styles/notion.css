@@ -73,20 +73,20 @@
 }
 
 .notion-collection-card {
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: none;
 }
 
 .notion-collection-card-cover img {
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .notion-collection-card {
-  overflow: visible;
+  overflow: hidden;
 }
 
 .notion-collection-card-cover {
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
 }
 
@@ -97,7 +97,11 @@
 }
 
 .notion-collection-card:hover .notion-collection-card-cover {
-  filter: brightness(120%);
+  filter: brightness(80%);
+}
+
+.notion-collection-card:hover {
+  transform: scale(1.01);
 }
 
 .notion-collection-card-body {

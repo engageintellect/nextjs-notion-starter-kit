@@ -11,6 +11,8 @@ body,
 html {
   padding: 0;
   margin: 0;
+
+  scroll-behavior: smooth;
 }
 
 body {
@@ -41,6 +43,8 @@ body {
 
 .dark-mode {
   --bg-color: #2b2a33;
+  --bg-color-1: #2b2a33;
+  --bg-color-0: #2b2a33;
 }
 
 .dark-mode .notion-header .breadcrumb:not(.active):hover {
@@ -66,4 +70,15 @@ body {
 
 .notion-collection-card-cover {
   border-radius: 5px;
+}
+
+.notion-collection-header {
+  display: none;
+}
+
+.notion-column > :last-child {
+  margin: 4px 5px 4px 6px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
