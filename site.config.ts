@@ -19,7 +19,7 @@ export default siteConfig({
   // social usernames (optional)
   twitter: 'engageintellect',
   github: 'engageintellect',
-  linkedin: '',
+  linkedin: 'engageintellect',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
